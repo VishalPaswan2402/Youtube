@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="logo">
+                <i class="fa-brands fa-youtube" style="color: #ff0000;"></i>
+            </div>
+            <div class="name">
+                <p>YouTube<sup>IN</sup></p>
+            </div>
+            <div class="searchbar">
+                <div class="src1">
+                    <i id="icon1" class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="srcbar">
+                    <input class="srcbar1" placeholder="Search your content here">
+                </div>
+                <div class="src2">
+                    <i id="icon2" class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="record">
+                <i id="recicon" class="fa-solid fa-microphone"></i>
+            </div>
+            <div class="righticon">
+                <div class="background">
+                    <i id="righticon" class="fa-solid fa-video"></i>
+                </div>
+                <div class="background">
+                    <i id="righticon" class="fa-regular fa-bell"></i>
+                </div>
+                <div class="profile">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="leftscroll">
+        <div class="home left">
+            <i id="icn" class="fa-solid fa-house"></i>
+            <p>Home</p>
+        </div>
+        <div class="shorts left">
+            <i id="icn" class="fa-solid fa-fire-flame-curved"></i>
+            <p>Shorts</p>
+        </div>
+        <div class="subscription left">
+            <i id="icn" class="fa-solid fa-photo-film"></i>
+            <p>Subscriptions</p>
+        </div>
+        
+        <div class="library left">
+            <i id="icn" class="fa-solid fa-film"></i>
+            <p>Library</p>
+        </div>
+        <div class="history left">
+            <i id="icn" class="fa-solid fa-clock-rotate-left"></i>
+           <p>History</p>
+        </div>
+        <div class="yourvideo left">
+            <i id="icn" class="fa-regular fa-circle-play"></i>
+            <p>Video</p>
+        </div>
+        <div class="watchlater left">
+            <i id="icn" class="fa-regular fa-clock"></i>
+           <p>Watch Later</p>
+        </div>
+        <div class="like left">
+            <i id="icn" class="fa-regular fa-thumbs-up"></i>
+            <p>Like</p>
+        </div>
+        
+        <div class="explor">
+            <!-- <div class="explore left">
+                <p>Explore</p>
+            </div> -->
+            <div class="trend left">
+                <i id="icn" class="fa-solid fa-fire"></i>
+                <p>Trending</p>
+            </div>
+            <div class="shopping left">
+                <i id="icn" class="fa-solid fa-cart-shopping"></i>
+                <p>Shopping</p>
+            </div>
+            <div class="music left">
+                <i id="icn" class="fa-brands fa-tiktok"></i>
+                <p>Music</p>
+            </div>
+            <div class="films left">
+                <i id="icn" class="fa-solid fa-film"></i>
+                <p>Films</p>
+            </div>
+            <div class="live left">
+                <i id="icn" class="fa-solid fa-satellite-dish"></i>
+                <p>Live</p>
+            </div>
+            <div class="game left">
+                <i id="icn" class="fa-solid fa-dice"></i>
+                <p>Gaming</p>
+            </div>
+            <div class="News left">
+                <i id="icn" class="fa-regular fa-newspaper"></i>
+                <p>News</p>
+            </div>
+            <div class="sport left">
+                <i id="icn" class="fa-solid fa-trophy"></i>
+                <p>Sport</p>
+            </div>
+            <div class="learn left">
+                <i id="icn" class="fa-regular fa-lightbulb"></i>
+                <p>Learning</p>
+            </div>
+            <div class="faishon left">
+                <i id="icn" class="fa-solid fa-hat-wizard"></i>
+                <p>Fashion & Beauty</p>
+            </div>
+        </div>
+        
+        <div class="more">
+            <div class="premium left">
+                <i id="icn" class="fa-solid fa-tv"></i>
+                <p>YouTube Premium</p>
+            </div>
+            <div class="studio left">
+                <i id="icn" class="fa-solid fa-circle-play"></i>
+                <p>YouTube Studio</p>
+            </div>
+            <div class="musics left">
+                <i id="icn" class="fa-solid fa-compact-disc"></i>
+               <p>YouTube Music</p>
+            </div>
+            <div class="kids left">
+                <i id="icn" class="fa-brands fa-square-viadeo"></i>
+               <p>YouTube Kids</p>
+            </div>
+            
+            <div class="setting left">
+                <i id="icn" class="fa-solid fa-gear"></i>
+                <p>Setting</p>
+            </div>
+            <div class="report left">
+                <i id="icn" class="fa-regular fa-flag"></i>
+                <p>Report History</p>
+            </div>
+            <div class="help left">
+                <i id="icn" class="fa-regular fa-circle-question"></i>
+                <p>Help</p>
+            </div>
+            <div class="feedback left">
+                <i id="icn" class="fa-regular fa-comment-dots"></i>
+                <p>Send Feedback</p>
+            </div>
+        </div>
+
+        <div class="about">
+            <p>About Press Copyright Contact us Creator Advertise Developers
+                Terms Privacy Policy & SafetyHow YouTube worksTest new features
+                © 2023 Google LLC</p>
+        </div>
+    </div>
+
+    <div class="category">
+        <div class="item">
+            <a href="#">All</a>
+            <a href="#">Dilquer Salmaan</a>
+            <a href="#">Trailer</a>
+            <a href="#">Music</a>
+            <a href="#">Films Cririsims</a>
+            <a href="#">Web Development</a>
+            <a href="#">Editing</a>
+            <a href="#">T-Series</a>
+            <a href="#">Mithoon</a>
+            <a href="#">Udit Narayan</a>
+            <a href="#">Allu Arjun</a>
+            <a href="#">Moon</a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="contentbody">
+        <div class="content">
+            <div class="content1" style="background-image: url('u31.jpeg');"></div>
+            <div class="name1">
+                <p>Top 10 Old Cover Song | Cover Jukebox | JalRaj All Hit Song |Non Stop Bollywood Song |</p>
+                <div class="cnl">
+                    <p>Song Collection</p>
+                    <p>215K views 1 month ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u2.jpeg');"></div>
+            <div class="name1">
+                <p>Top 50 Best pose for man || New Stylish Photo Poses for Men | Pose like Model PK Photography</p>
+                <div class="cnl">
+                    <p>IZX Photo</p>
+                    <p>1.9M views 2 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u33.jpeg');"></div>
+            <div class="name1">
+                <p>Drishyam 2: OFFICIAL TRAILER | Ajay Devgn Akshaye Khanna Tabu Shriya Saran Abhishek</p>
+                <div class="cnl">
+                    <p>T-Series</p>
+                    <p>19M views 10 months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u34.jpeg');"></div>
+            <div class="name1">
+                <p>#AlaVaikunthapurramuloo - Ramuloo Ramulaa Full Video Song || Allu Arjun || Trivikram | Thaman S</p>
+                <div class="cnl">
+                    <p>Aditya Music Telugu</p>
+                    <p> 611M views 3 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u5.jpeg');"></div>
+            <div class="name1">
+                <p>Jhoome Jo Pathaan Song | Shah Rukh Khan, Deepika | Vishal & Sheykhar, Arijit Singh, Sukriti</p>
+                <div class="cnl">
+                    <p>YRF</p>
+                    <p>658M views 8 months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u6.jpeg');"></div>
+            <div class="name1">
+                <p>Raataan Lambiyan Official Video | Shershaah | Sidharth Kiara | Tanishk B| Jubin Nautiyal |Asees</p>
+                <div class="cnl">
+                    <p>Sony Music India</p>
+                    <p>810M views 2 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u7.jpeg');"></div>
+            <div class="name1">
+                <p>Param Sundari -Official Video | Mimi | Kriti Sanon, Pankaj Tripathi | @ARRahman| Shreya |Amitabh</p>
+                <div class="cnl">
+                    <p>Sony Music India</p>
+                    <p>466M views 2 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u8.jpeg');"></div>
+            <div class="name1">
+                <p>Rocky Aur Rani Kii Prem Kahaani | Audio Jukebox | Ranveer Singh | Alia Bhatt | Pritam | Amitabh B </p>
+                <div class="cnl">
+                    <p>Saregama Music</p>
+                    <p>747K views 3 weeks ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u9.jpeg');"></div>
+            <div class="name1">
+                <p>Jawan: Zinda Banda Song |Shah Rukh Khan |Atlee |Anirudh |Nayanthara |Vijay Sethupathi |Deepika</p>
+                <div class="cnl">
+                    <p>T-Series</p>
+                    <p>60M views 3 weeks ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u10.jpeg');"></div>
+            <div class="name1">
+                <p>Oo Antava Mawa..Oo Oo Antava Full Video Song | Pushpa Songs | Allu Arjun| DSP |Sukumar |Samantha</p>
+                <div class="cnl">
+                    <p>Aditya Music India</p>
+                    <p>373M views 1 year ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u19.jpeg');"></div>
+            <div class="name1">
+                <p>Fast & Furious 9 – Official Trailer (Universal Pictures) HD</p>
+                <div class="cnl">
+                    <p>Universal Pictures UK</p>
+                    <p>20M views 3 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u12.jpeg');"></div>
+            <div class="name1">
+                <p>Pushpa: Saami Saami - Full Video Song | Allu Arjun, Rashmika Mandanna | Sunidhi C | DSP | Sukumar</p>
+                <div class="cnl">
+                    <p>T-Series</p>
+                    <p>600M views 1 year ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u13.jpeg');"></div>
+            <div class="name1">
+                <p>How To Write A Song - Step-by-Step ! (HINDI)</p>
+                <div class="cnl">
+                    <p>Dream Art Record</p>
+                    <p>97K views 2 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u14.jpeg');"></div>
+            <div class="name1">
+                <p>The Wakhra Song - Judgementall Hai Kya |Kangana R & Rajkummar R|Tanishk,Navv Inder,Raja Kumari</p>
+                <div class="cnl">
+                    <p>Zee Music Company</p>
+                    <p>192M views 4 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u15.jpeg');"></div>
+            <div class="name1">
+                <p>Mahashiv Jagran, A Great Collection of Superhit Shivratri Jagran Bhajans I Full Audio Songs Juke Box</p>
+                <div class="cnl">
+                    <p>T-Series Bhakti Series</p>
+                    <p>3.4M views 8 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u26.jpeg');"></div>
+            <div class="name1">
+                <p>Introducing Pushpa Raj | Allu Arjun | Pushpa | Rashmika | Fahadh Faasil | DSP | Sukumar</p>
+                <div class="cnl">
+                    <p>Mythri Movie Makers</p>
+                    <p>98M views 2 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u17.jpeg');"></div>
+            <div class="name1">
+                <p>Pathaan | Official Trailer | Shah Rukh Khan | Deepika Padukone | John Abraham | Siddharth Anand</p>
+                <div class="cnl">
+                    <p>YRF</p>
+                    <p>78M views 9 months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u18.jpeg');"></div>
+            <div class="name1">
+                <p>Adipurush (Final Trailer) Hindi | Prabhas | Saif Ali Khan | Kriti Sanon | Om Raut | Bhushan Kumar</p>
+                <div class="cnl">
+                    <p>T-Series</p>
+                    <p>48M views 2 months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u21.jpeg');"></div>
+            <div class="name1">
+                <p>Tu Akelli Hi Kafi Hai | Nushrratt Bharuccha, Tsahi Halevi | Daler Mehndi, Piyush Kapoor, Himanshu C</p>
+                <div class="cnl">
+                    <p>Zee Music Company</p>
+                    <p>2.9M views 10 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u20.jpeg');"></div>
+            <div class="name1">
+                <p>#Gadar2 Official Trailer | 11th August | Sunny Deol | Ameesha Patel | Anil Sharma | Zee Studios</p>
+                <div class="cnl">
+                    <p>Zee TV</p>
+                    <p>41M views 4 weeks ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u35.jpeg');"></div>
+            <div class="name1">
+                <p>DJ Duvvada Jagannadham | Telugu Full Movie 2017 | Allu Arjun, Pooja Hegde</p>
+               <div class="cnl">
+                    <p>Dil Raju</p>
+                    <p>10M views 10 months ago</p>
+               </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u22.jpeg');"></div>
+            <div class="name1">
+                <p>Star Wars: The Rise of Skywalker | Final Trailer</p>
+                <div class="cnl">
+                    <p>Star Wars</p>
+                    <p>49M views 3 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u23.jpeg');"></div>
+            <div class="name1">
+                <p>JAILER - Official ShowCase (Telugu) | Superstar Rajinikanth | Sun Pictures | Anirudh | Nelson</p>
+                <div class="cnl">
+                    <p>Gemili TV</p>
+                    <p>7.6M views 3 weeks ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u24.jpeg');"></div>
+            <div class="name1">
+                <p>Voter New Hindi Dubbed Full Movie (2021) | Latest Hindi Dubbed Movie | Vishnu Manchu , Surabhi</p>
+                <div class="cnl">
+                    <p>Aditya Movies</p>
+                    <p>99M views 2 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u25.jpeg');"></div>
+            <div class="name1">
+                <p>#Pushpa - The Rise (Hindi) Official Trailer | Allu Arjun, Rashmika, Sunil, Fahadh | DSP | Sukumar</p>
+                <div class="cnl">
+                    <p>Goldmines</p>
+                    <p>80M views 1 year ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u16.jpeg');"></div>
+            <div class="name1">
+                <p>Kantara - Varaha Roopam(Lyric Video)| Sai Vignesh | Rishab Shetty | Ajaneesh Loknath | Hombale Films</p>
+                <div class="cnl">
+                    <p>Hombale Films</p>
+                    <p>151M views 10 months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u27.jpeg');"></div>
+            <div class="name1">
+                <p>Jai Bhim - Official Hindi Trailer | Suriya | Amazon Prime Video</p>
+                <div class="cnl">
+                    <p>Prime Video India</p>
+                    <p>15M views 1 year ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u28.jpeg');"></div>
+            <div class="name1">
+                <p>VIKRAM - Official Title Teaser | #KamalHaasan232 | Kamal Haasan | Lokesh Kanagaraj | Anirudh</p>
+                <div class="cnl">
+                    <p>Raaj Kamal Films International</p>
+                    <p>38M views 2 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u29.jpeg');"></div>
+            <div class="name1">
+                <p>Kaithi (4K) - कार्थी की ब्लॉकबस्टर एक्शन थ्रिलर हिंदी मूवी| Narain, Arjun Das, George Maryan, Harish</p>
+                <div class="cnl">
+                    <p>Goldmines</p>
+                    <p>6.4M views 3 months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content1" style="background-image: url('u30.jpeg');"></div>
+            <div class="name1">
+                <p>Vijay The Master Full Movie Hindi Dubbed | Vijay, Vijay Sethupathi, Malavika Mohanan | B4U Movies</p>
+                <div class="cnl">
+                    <p>B4U Movies</p>
+                    <p>38M views 9 months ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
